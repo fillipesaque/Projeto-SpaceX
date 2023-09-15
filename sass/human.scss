@@ -1,0 +1,360 @@
+@import "index.scss";
+/* Pagina 01 Human */
+.container-human{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("../img-projetoSpace/humanFlight/01.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    color: white;
+    align-content: center;
+}
+.header-human{
+    display: flex;
+    padding: 40px;
+    flex-direction: row;
+}
+.nav-header-human{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+.img-logo-human{
+    width: 300px;
+}
+.nav-human{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+}
+.conteudoHuman01{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+        margin-right: 700px;
+        margin-top: 30px;
+    }
+    h1{
+        font-size: 100px;
+    }
+    h3{
+        margin-top: 35px;
+    }
+}
+@media(max-width:721px){
+    .nav-header-human{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-human{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:768px){
+    .nav-header-human{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-human{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conteudoHuman01{
+        h1{
+            font-size: 50px;
+            margin-right: 400px;
+        }
+        h3{
+            margin-right: 300px;
+        }
+    }
+}
+
+@media(max-width:375px){
+    .conteudoHuman01{
+        h1{
+            font-size: 30px;
+            margin-left: 400px;
+        }
+        h3{
+            align-items: center;
+            margin-left: 300px;
+        }
+    }
+
+}
+@media(max-width:425px){
+    .conteudoHuman01{
+        h1{
+            font-size: 30px;
+            margin-left: 400px;
+        }
+        h3{
+            align-items: center;
+            margin-left: 300px;
+        }
+    }
+
+}
+
+/* pagina 02 do Human Space */
+
+.container-human02{
+    min-height: 120vh;
+    background-image: url("../img-projetoSpace/humanFlight/02.jpg");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.conteudo-topo{
+    display: block;
+    margin: 0 auto;
+    line-height: 5px;
+    margin-top: 80px;
+    p{
+        font-weight: bold;
+    }
+}
+.conteudo02{
+    margin-left: 850px;
+    button{
+    margin-top: 15px;
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 15px;
+    width: 150px;
+    }
+    p{
+        line-height: 3px;
+    }
+}
+@media(max-width:1024px){
+    .conteudo02{
+       margin-left: 600px;
+    }
+}
+@media(max-width:768px){
+    .conteudo02{
+       margin-left: 500px;
+       display: flex;
+       flex-direction: column;
+        p{
+            font-size: 10px;
+            max-width: 200px;
+            line-height: normal;
+        }
+    }
+}
+@media(max-width:375px){
+    .container-human02{
+        display: flex;
+        flex-direction: column;
+        min-width: 500px;
+        align-items: center;
+        justify-content: center;
+    }
+    .conteudo-topo{
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        gap: 20px;
+        line-height: normal;
+        margin-right: 150px;
+    }
+    .conteudo02{
+        margin-right: 600px;
+        line-height: normal;
+        margin-bottom: 80px;
+        p{
+            line-height: normal;
+            font-size: 15px;
+        }
+    }
+}
+@media(max-width:425px){
+    .container-human02{
+        display: flex;
+        flex-direction: column;
+        min-width: 500px;
+        align-items: center;
+        justify-content: center;
+    }
+    .conteudo-topo{
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        gap: 20px;
+        line-height: normal;
+        margin-right: 100px;
+    }
+    .conteudo02{
+        margin-right: 600px;
+        line-height: normal;
+        margin-bottom: 80px;
+        p{
+            line-height: normal;
+            font-size: 15px;
+        }
+    }
+}
+
+/* Pagina 03 human space */
+
+    .container03-human{
+        min-height: 120vh;
+        background-image: url("../img-projetoSpace/humanFlight/03.jpg");
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+        color: white;
+        display: flex;
+    }
+    .conteudo03-human{
+        padding: 80px;
+        margin-left: 50px;
+        p{
+            font-weight: bolder;
+        }
+        button{
+            margin-top: 15px;
+            color: white;
+            border-color: white;
+            background-color: transparent;
+            border-radius: 10px;
+            padding: 15px;
+            width: 150px;
+        }
+    }
+
+    /* Pagina 04 human space */
+
+    .container-human04{
+        display: flex;
+        background-image: url("../img-projetoSpace/humanFlight/04.jpg");
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+        color: white;
+        min-height: 100vh;
+        }
+    .conteudo04{
+        display: flex;
+        margin-left: 850px;
+        p {
+            line-height: 5px;
+            font-weight: bolder;
+        }
+        button{
+            margin-top: 15px;
+            color: white;
+            border-color: white;
+            background-color: transparent;
+            border-radius: 10px;
+            padding: 15px;
+            width: 150px;
+        }
+    }
+    @media(max-width:1024px){
+        .conteudo04{
+            margin-left: 600px;
+            p{
+                line-height: normal;
+                max-width: 300px;
+            }
+        }
+    }
+    @media(max-width:768px){
+        .conteudo04{
+            margin-left: 500px;
+        p{
+            max-width: 250px;
+        }
+        }
+    }
+    @media(max-width:425px){
+        .conteudo04{
+            margin-left: 140px;
+        }
+    }
+    @media(max-width:375px){
+        .conteudo04{
+            p{
+                max-width: 150px;
+            }
+        }
+    }
+
+    /* Pagina 05 human space */
+    .container05-human{
+        background-image: url("../img-projetoSpace/humanFlight/05.jpg");
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        color: white;
+        display: flex;
+    }
+    .conteudo05-human{
+        padding: 120px;
+        button{
+            margin-top: 15px;
+            color: white;
+            border-color: white;
+            background-color: transparent;
+            border-radius: 10px;
+            padding: 15px;
+            width: 150px;
+        }
+    }
+
+    /* Pagina 06 human space */
+    .container06-human{
+        min-height: 85vh;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        color: white;
+        align-items: center;
+    }
+    .conteudo06-human{
+        margin-top: 130px;
+    }
+    .btn06{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        gap: 10px;
+        button{
+            color: white;
+            border-color: white;
+            background-color: transparent;
+            border-radius: 8px;
+            padding: 10px;
+            width: 220px;
+        }
+    }
+    @media(max-width:425px){
+        .conteudo06-human{
+            max-width: 300px;
+        }
+    }

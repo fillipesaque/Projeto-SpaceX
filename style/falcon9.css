@@ -1,0 +1,1085 @@
+@charset "UTF-8";
+@import url("./falcon9.scss");
+@import url("./human.scss");
+@import url("./falcon9.scss");
+@import url("./human.scss");
+.container-home {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  min-height: 100vh;
+  background-image: url("../img-projetoSpace/home/01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.header {
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin: 30px;
+}
+
+.nav {
+  gap: 20px;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.img-logo {
+  width: 350px;
+}
+
+/* conteudo home */
+.conteudo-home {
+  margin-top: 180px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.conteudo-home h1 {
+  line-height: 5px;
+}
+.conteudo-home button {
+  margin-top: 60px;
+  color: white;
+  border-color: white;
+  padding: 15px;
+  width: 150px;
+}
+.conteudo-home p {
+  font-weight: bolder;
+}
+
+.img-seta {
+  width: 80px;
+  height: 80px;
+  margin-left: 50%;
+}
+
+/* media query pagina Home */
+@media (max-width: 768px) {
+  .nav-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    margin-right: 170px;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 375px) {
+  .img-logo {
+    width: 300px;
+  }
+}
+/* HOME pagina 02 */
+.container02 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: white;
+  background-image: url("../img-projetoSpace/home/03.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.conteudo02 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-left: 50px;
+  gap: 10px;
+}
+.conteudo02 p {
+  font-weight: bold;
+}
+
+.title02 {
+  line-height: 5px;
+}
+
+.btn-02 {
+  padding: 15px;
+  width: 150px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+
+/* Home pagina 03 */
+.container03 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("../img-projetoSpace/home/02.gif");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.conteudo03 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  margin-left: 50px;
+  color: white;
+  gap: 10px;
+}
+.conteudo03 p {
+  font-weight: bold;
+  line-height: 0px;
+}
+.conteudo03 button {
+  padding: 15px;
+  width: 150px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+.h1-terra {
+  line-height: 5px;
+}
+
+/* home 04 */
+.container04 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("../img-projetoSpace/home/04.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.conteudo04 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 130px;
+  margin-left: 50px;
+  gap: 10px;
+}
+.conteudo04 button {
+  width: 150px;
+  padding: 15px;
+  background-color: transparent;
+  color: white;
+  border-radius: 8px;
+  border-color: white;
+  margin-top: 50px;
+}
+
+.h104 {
+  line-height: 5px;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: row;
+  min-height: 100px;
+  align-items: center;
+  gap: 40px;
+  margin-left: 30%;
+}
+.nav-footer p {
+  font-size: 13px;
+}
+.nav-footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+}
+
+/* responsividade footer */
+@media (max-width: 768px) {
+  .nav-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.container-home {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  min-height: 100vh;
+  background-image: url("../img-projetoSpace/home/01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.header {
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin: 30px;
+}
+
+.nav {
+  gap: 20px;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.img-logo {
+  width: 350px;
+}
+
+/* conteudo home */
+.conteudo-home {
+  margin-top: 180px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.conteudo-home h1 {
+  line-height: 5px;
+}
+.conteudo-home button {
+  margin-top: 60px;
+  color: white;
+  border-color: white;
+  padding: 15px;
+  width: 150px;
+}
+.conteudo-home p {
+  font-weight: bolder;
+}
+
+.img-seta {
+  width: 80px;
+  height: 80px;
+  margin-left: 50%;
+}
+
+/* media query pagina Home */
+@media (max-width: 768px) {
+  .nav-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    margin-right: 170px;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 375px) {
+  .img-logo {
+    width: 300px;
+  }
+}
+/* HOME pagina 02 */
+.container02 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: white;
+  background-image: url("../img-projetoSpace/home/03.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.conteudo02 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-left: 50px;
+  gap: 10px;
+}
+.conteudo02 p {
+  font-weight: bold;
+}
+
+.title02 {
+  line-height: 5px;
+}
+
+.btn-02 {
+  padding: 15px;
+  width: 150px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+
+/* Home pagina 03 */
+.container03 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("../img-projetoSpace/home/02.gif");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.conteudo03 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  margin-left: 50px;
+  color: white;
+  gap: 10px;
+}
+.conteudo03 p {
+  font-weight: bold;
+  line-height: 0px;
+}
+.conteudo03 button {
+  padding: 15px;
+  width: 150px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+.h1-terra {
+  line-height: 5px;
+}
+
+/* home 04 */
+.container04 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("../img-projetoSpace/home/04.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.conteudo04 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 130px;
+  margin-left: 50px;
+  gap: 10px;
+}
+.conteudo04 button {
+  width: 150px;
+  padding: 15px;
+  background-color: transparent;
+  color: white;
+  border-radius: 8px;
+  border-color: white;
+  margin-top: 50px;
+}
+
+.h104 {
+  line-height: 5px;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: row;
+  min-height: 100px;
+  align-items: center;
+  gap: 40px;
+  margin-left: 30%;
+}
+.nav-footer p {
+  font-size: 13px;
+}
+.nav-footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+}
+
+/* responsividade footer */
+@media (max-width: 768px) {
+  .nav-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* Pagina 01 Human */
+.container-human {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("../img-projetoSpace/humanFlight/01.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  align-content: center;
+}
+
+.header-human {
+  display: flex;
+  padding: 40px;
+  flex-direction: row;
+}
+
+.nav-header-human {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+}
+
+.img-logo-human {
+  width: 300px;
+}
+
+.nav-human {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.nav-human a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.conteudoHuman01 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.conteudoHuman01 img {
+  margin-right: 700px;
+  margin-top: 30px;
+}
+.conteudoHuman01 h1 {
+  font-size: 100px;
+}
+.conteudoHuman01 h3 {
+  margin-top: 35px;
+}
+
+@media (max-width: 721px) {
+  .nav-header-human {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-human {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .nav-header-human {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-human {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .conteudoHuman01 h1 {
+    font-size: 50px;
+    margin-right: 400px;
+  }
+  .conteudoHuman01 h3 {
+    margin-right: 300px;
+  }
+}
+@media (max-width: 375px) {
+  .conteudoHuman01 h1 {
+    font-size: 30px;
+    margin-left: 400px;
+  }
+  .conteudoHuman01 h3 {
+    align-items: center;
+    margin-left: 300px;
+  }
+}
+@media (max-width: 425px) {
+  .conteudoHuman01 h1 {
+    font-size: 30px;
+    margin-left: 400px;
+  }
+  .conteudoHuman01 h3 {
+    align-items: center;
+    margin-left: 300px;
+  }
+}
+/* pagina 02 do Human Space */
+.container-human02 {
+  min-height: 120vh;
+  background-image: url("../img-projetoSpace/humanFlight/02.jpg");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-topo {
+  display: block;
+  margin: 0 auto;
+  line-height: 5px;
+  margin-top: 80px;
+}
+.conteudo-topo p {
+  font-weight: bold;
+}
+
+.conteudo02 {
+  margin-left: 850px;
+}
+.conteudo02 button {
+  margin-top: 15px;
+  color: white;
+  border-color: white;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 15px;
+  width: 150px;
+}
+.conteudo02 p {
+  line-height: 3px;
+}
+
+@media (max-width: 1024px) {
+  .conteudo02 {
+    margin-left: 600px;
+  }
+}
+@media (max-width: 768px) {
+  .conteudo02 {
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  .conteudo02 p {
+    font-size: 10px;
+    max-width: 200px;
+    line-height: normal;
+  }
+}
+@media (max-width: 375px) {
+  .container-human02 {
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    align-items: center;
+    justify-content: center;
+  }
+  .conteudo-topo {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 20px;
+    line-height: normal;
+    margin-right: 150px;
+  }
+  .conteudo02 {
+    margin-right: 600px;
+    line-height: normal;
+    margin-bottom: 80px;
+  }
+  .conteudo02 p {
+    line-height: normal;
+    font-size: 15px;
+  }
+}
+@media (max-width: 425px) {
+  .container-human02 {
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    align-items: center;
+    justify-content: center;
+  }
+  .conteudo-topo {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 20px;
+    line-height: normal;
+    margin-right: 100px;
+  }
+  .conteudo02 {
+    margin-right: 600px;
+    line-height: normal;
+    margin-bottom: 80px;
+  }
+  .conteudo02 p {
+    line-height: normal;
+    font-size: 15px;
+  }
+}
+/* Pagina 03 human space */
+.container03-human {
+  min-height: 120vh;
+  background-image: url("../img-projetoSpace/humanFlight/03.jpg");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+}
+
+.conteudo03-human {
+  padding: 80px;
+  margin-left: 50px;
+}
+.conteudo03-human p {
+  font-weight: bolder;
+}
+.conteudo03-human button {
+  margin-top: 15px;
+  color: white;
+  border-color: white;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 15px;
+  width: 150px;
+}
+
+/* Pagina 04 human space */
+.container-human04 {
+  display: flex;
+  background-image: url("../img-projetoSpace/humanFlight/04.jpg");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  color: white;
+  min-height: 100vh;
+}
+
+.conteudo04 {
+  display: flex;
+  margin-left: 850px;
+}
+.conteudo04 p {
+  line-height: 5px;
+  font-weight: bolder;
+}
+.conteudo04 button {
+  margin-top: 15px;
+  color: white;
+  border-color: white;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 15px;
+  width: 150px;
+}
+
+@media (max-width: 1024px) {
+  .conteudo04 {
+    margin-left: 600px;
+  }
+  .conteudo04 p {
+    line-height: normal;
+    max-width: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .conteudo04 {
+    margin-left: 500px;
+  }
+  .conteudo04 p {
+    max-width: 250px;
+  }
+}
+@media (max-width: 425px) {
+  .conteudo04 {
+    margin-left: 140px;
+  }
+}
+@media (max-width: 375px) {
+  .conteudo04 p {
+    max-width: 150px;
+  }
+}
+/* Pagina 05 human space */
+.container05-human {
+  background-image: url("../img-projetoSpace/humanFlight/05.jpg");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+}
+
+.conteudo05-human {
+  padding: 120px;
+}
+.conteudo05-human button {
+  margin-top: 15px;
+  color: white;
+  border-color: white;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 15px;
+  width: 150px;
+}
+
+/* Pagina 06 human space */
+.container06-human {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+
+.conteudo06-human {
+  margin-top: 130px;
+}
+
+.btn06 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 10px;
+}
+.btn06 button {
+  color: white;
+  border-color: white;
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 10px;
+  width: 220px;
+}
+
+@media (max-width: 425px) {
+  .conteudo06-human {
+    max-width: 300px;
+  }
+}
+/* PAGINA FALCON9 01  */
+.container-falcon9 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("../img-projetoSpace/falcon9/01.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  align-content: center;
+}
+
+.header-falcon9 {
+  display: flex;
+  padding: 40px;
+  flex-direction: row;
+}
+
+.nav-header-falcon9 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+}
+
+.img-logo-falcon9 {
+  width: 300px;
+}
+
+.nav-falcon9 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.nav-falcon9 a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.conteudoHuman01 {
+  margin-top: 100px;
+  margin-right: 90px;
+}
+
+@media (max-width: 768px) {
+  .conteudoHuman01 {
+    display: flex;
+    flex-direction: column;
+  }
+  .conteudoHuman01 h1 {
+    margin-left: 500px;
+  }
+  .conteudoHuman01 p {
+    margin-left: 100px;
+    font-weight: bold;
+  }
+}
+@media (max-width: 425px) {
+  .nav-header-falcon9 {
+    display: flex;
+    flex-direction: column;
+  }
+  .conteudoHuman01 h1 {
+    justify-content: center;
+  }
+  .conteudoHuman01 p {
+    margin-top: 80px;
+  }
+}
+/* PAGINA FALCON9 02  */
+.container02-falcon9 {
+  min-height: 130vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img-projetoSpace/falcon9/02.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.numeros {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.lançamento {
+  max-width: 200px;
+  font-weight: bold;
+}
+.lançamento span {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.desembarque {
+  max-width: 200px;
+  font-weight: bold;
+}
+.desembarque span {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.foguetes {
+  max-width: 200px;
+  font-weight: bold;
+}
+.foguetes span {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.texto {
+  margin-top: 300px;
+  max-width: 600px;
+  margin-left: 125px;
+  font-weight: bold;
+  line-height: 2.5;
+}
+
+@media (max-width: 425px) {
+  .numeros {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .texto p {
+    margin-right: 80px;
+    margin-bottom: 100px;
+  }
+  .lançamento {
+    max-width: 90px;
+  }
+  .desembarque {
+    max-width: 90px;
+    margin-top: 50px;
+  }
+  .foguetes {
+    max-width: 90px;
+    margin-top: 50px;
+  }
+}
+/* PAGINA FALCON9 03  */
+.carousel-caption {
+  margin-right: 500px;
+  margin-bottom: 100px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.carousel-caption p {
+  line-height: 5px;
+  margin: 0;
+}
+.carousel-caption span {
+  margin-left: 90px;
+}
+.carousel-caption .p1 {
+  margin-left: 200px;
+}
+.carousel-caption .p2 {
+  margin-left: 260px;
+}
+.carousel-caption .p3 {
+  margin-left: 350px;
+}
+.carousel-caption .title {
+  margin-bottom: 15px;
+}
+
+/* slide 02 */
+.caption2 {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.caption2 p {
+  line-height: 1.5;
+  font-size: 18px;
+}
+.caption2 .p2-slide2 {
+  margin-top: 20px;
+}
+
+/* slide 03 */
+.caption3 {
+  margin-top: 200px;
+  max-height: 380px;
+}
+.caption3 p {
+  line-height: normal;
+  font-size: 18px;
+  margin: 0;
+}
+
+.conteudo-slide-03 {
+  margin-top: 40px;
+}
+.conteudo-slide-03 span {
+  margin-left: 150px;
+}
+
+/* slide 04 */
+.caption4 p {
+  line-height: normal;
+}
+.caption4 h3 {
+  line-height: 2;
+}
+.caption4 .alerta {
+  margin-top: 20px;
+}
+
+/* slide 05 */
+.caption5 p {
+  line-height: normal;
+}
+.caption5 .conteudo05 {
+  margin-top: 20px;
+}
+
+/* Pagina 04 falcon9 */
+.container-falcon9-04 {
+  min-height: 100vh;
+  background-image: url("../img-projetoSpace/falcon9/08.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-falcon09-04 {
+  padding: 120px;
+  max-width: 800px;
+}
+.conteudo-falcon09-04 span {
+  margin-left: 350px;
+}
+
+@media (max-width: 375px) {
+  .conteudo-falcon09-04 span {
+    margin-left: 5px;
+  }
+}
+@media (max-width: 425px) {
+  .conteudo-falcon09-04 span {
+    margin-left: 5px;
+  }
+}
+/* Pagina 05 falcon9 */
+.container-05-falcon9 {
+  min-height: 100vh;
+}
+
+#carouselExampleCaptions p {
+  line-height: normal;
+  font-weight: bold;
+  width: 800px;
+  background-color: black;
+}
+
+/*# sourceMappingURL=falcon9.css.map */
